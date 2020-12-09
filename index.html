@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="maincontainer">
+        <div class="feedback">
+          <div class="heading">Vonex</div>
+          <div class="resultbox">
+            <div class="top answer"></div>
+            <hr />
+            <div class="result tosolve"></div>
+          </div>
+        </div>
+        <div class="calcpad">
+          <table>
+            <tr>
+              <td onclick="removeback('C')">C</td>
+              <td onclick="clean('CE')">CE</td>
+              <td onclick="getvalue('+')">+</td>
+              <td onclick="getvalue('-')">-</td>
+            </tr>
+
+            <tr>
+              <td onclick="getvalue(1)">1</td>
+              <td onclick="getvalue(2)">2</td>
+              <td onclick="getvalue(3)">3</td>
+              <td onclick="getvalue('*')">*</td>
+            </tr>
+
+            <tr>
+              <td onclick="getvalue(4)">4</td>
+              <td onclick="getvalue(5)">5</td>
+              <td onclick="getvalue(6)">6</td>
+              <td onclick="getvalue('/')">/</td>
+            </tr>
+
+            <tr>
+              <td onclick="getvalue(7)">7</td>
+              <td onclick="getvalue(8)">8</td>
+              <td onclick="getvalue(9)">9</td>
+              <td onclick="getvalue('.')">.</td>
+            </tr>
+
+            <tr>
+              <td onclick="getvalue(0)">0</td>
+
+              <td onclick="solve('=')" colspan="3" class="equal">=</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

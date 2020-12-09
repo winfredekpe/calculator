@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(80deg, #5eff00 0%, #0084ff 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.maincontainer {
+  margin-top: -7rem;
+}
+
+td {
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+td:active {
+  background-color: blue;
+}
+
+.equal {
+  border-radius: 50px;
+}
+
+.feedback {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  font-size: 2rem;
+  border-radius: 20px;
+  margin-bottom: 1.3rem;
+}
+
+.heading {
+  margin: 1.3rem;
+}
+
+.answer,
+.tosolve {
+  -webkit-transition: all 3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+/*# sourceMappingURL=style.css.map */
